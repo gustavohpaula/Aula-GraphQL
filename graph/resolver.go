@@ -1,6 +1,6 @@
 package graph
 
-import "github.com/gustavohpaula/Aula-GraphQL/internal/database"
+import "github.com/devfullcycle/13-GraphQL/internal/database"
 
 // This file will not be regenerated automatically.
 //
@@ -8,4 +8,5 @@ import "github.com/gustavohpaula/Aula-GraphQL/internal/database"
 
 type Resolver struct {
 	CategoryDB *database.Category
+	CourseDB   *database.Course
 }
